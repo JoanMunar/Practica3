@@ -15,6 +15,5 @@
 <body>
     <h1>Selecciona el ordre que vulguis:</h1>
     <tag:navegador></tag:navegador>
-
 </body>
 </html>
