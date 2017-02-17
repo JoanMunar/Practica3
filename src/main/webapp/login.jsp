@@ -11,12 +11,11 @@
     <title>Login</title>
 </head>
 <body>
-
-<h2>Login:</h2>
-<form name="loginForm" method="POST" action="j_security_check">
-    <p>Nom: <input type="text" name="j_username" size="15"/></p>
-    <p>Contrasenya: <input type="password" size="15" name="j_password"/></p>
-    <p><input type="submit" value="Submit"/></p>
-</form>
+    <h2>Login:</h2>
+    <form name="loginForm" method="POST" action="j_security_check">
+        <p>Nom: <input type="text" name="j_username" size="15"/></p>
+        <p>Contrasenya: <input type="password" size="15" name="j_password"/></p>
+        <p><input type="submit" value="Submit"/></p>
+    </form>
 </body>
 </html>
