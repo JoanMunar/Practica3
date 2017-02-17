@@ -11,7 +11,7 @@
     <title>Error</title>
 </head>
     <body>
-        <h2>Error a l'hora de iniciar sessio</h2>
-        <p>Torna a la pagina del</p><a href="index.jsp">index</a>
+        <h2>Error a hora de iniciar sessio</h2>
+        Torna a la pagina del<a href="index.jsp">index</a>
     </body>
 </html>
