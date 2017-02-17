@@ -3,7 +3,7 @@
 
 <c:choose>
 <c:when test="${requestScope['llistaRol'] != null}">
-    <!--Taula-->
+    <!--Es crea la taula-->
     <table>
         <tr>
             <th>Rol</th>
@@ -12,6 +12,7 @@
 
         <c:forEach items="${requestScope['llistaRol']}" var="rol">
             <tr>
+                <p>Hey</p>
                 <td><c:out value="${rol.getNomRol()}"/></td>
                 <td><c:out value="${rol.getDescripcioRol()}"/></td>
                 <c:choose>
