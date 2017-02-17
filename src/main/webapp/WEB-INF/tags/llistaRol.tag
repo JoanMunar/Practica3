@@ -2,7 +2,7 @@
 
 
 <c:choose>
-<c:when test="${requestScope['rList'] != null}">
+<c:when test="${requestScope['llistaRol'] != null}">
     <!--Taula-->
     <table>
         <tr>
